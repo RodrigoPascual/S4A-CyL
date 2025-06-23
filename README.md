@@ -1,1 +1,56 @@
-# S4A-CyL
+<!-- --------------------------------------------------------------------- -->
+<!--                S4A-CyL – Sentinel-2 for Agriculture                   -->
+<!-- --------------------------------------------------------------------- -->
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/RodrigoPascual/S4A-CyL?style=flat-square">
+  <img src="https://img.shields.io/github/languages/top/RodrigoPascual/S4A-CyL?style=flat-square">
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/data-CC%20BY%204.0-green?style=flat-square">
+  <a href="https://doi.org/10.5281/zenodo.XXXXXXX"><img src="https://img.shields.io/badge/dataset-Zenodo-orange?style=flat-square"></a>
+</p>
+
+<h1 align="center">S4A-CyL</h1>
+<p align="center"><em>Sentinel-2 time-series dataset with parcel-level crop labels for Castilla y León (Spain, 2020–2024)</em></p>
+
+---
+
+## Why this repository?
+
+* **Explore quickly** – open any NetCDF patch in a couple of lines of Python or in the provided Jupyter notebook.  
+* **Query with confidence** – utility functions to extract time-series, masks, parcel footprints, class names, etc.  
+* **Extend if needed** – all preprocessing scripts are here, but they require the *official* SIGPAC shapefiles which are **not distributed in this repo** (see § Data prerequisites).
+
+> **TL;DR**    
+> If you only need to *use* the published dataset, clone the repo and jump straight to the notebook.  
+> If you want to **re-generate** the raster layers or add future years, bring your own SIGPAC files and follow the full workflow.
+
+---
+
+## Table of Contents
+- [Quick start](#quick-start)
+- [Repository layout](#repository-layout)
+- [Data prerequisites](#data-prerequisites)
+- [Core scripts](#core-scripts)
+- [Sample notebook](#sample-notebook)
+- [How to cite](#how-to-cite)
+- [License](#license)
+
+---
+
+## Quick start
+
+```bash
+# 1. clone and enter
+git clone https://github.com/RodrigoPascual/S4A-CyL.git
+cd S4A-CyL
+
+# 2. create the conda env
+conda env create -f environment.yml
+conda activate s4acyl
+
+# 3. download patches (≈ MB) from [___________________]
+
+
+# 4. explore!
+jupyter lab notebooks/patch_visualization.ipynb
+
