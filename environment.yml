@@ -19,4 +19,5 @@ dependencies:
   - matplotlib
   - ipywidgets
   - jupyterlab
+  - scikit-image
   - pip
