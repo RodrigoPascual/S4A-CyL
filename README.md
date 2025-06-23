@@ -60,9 +60,9 @@ jupyter lab notebooks/patch_visualization.ipynb
 
 | Patch · Banda · Overlay | Imagen |
 |-------------------------|--------|
-| **2020 · 29TPF · patch 20_15**  – RGB + **Labels** | <img src="Examples/patch_view_2020-29TPF-20_15_band-RGB Composite_t-3.png" width="520"/> |
-| **2024 · 30TUK · patch 00_00** – Banda **B04** + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
-| **2024 · 30TUM · patch 00_16** – RGB + **Parcels** | <img src="Examples/patch_view_2024-30TUM-00_16_band-RGB Composite_t-0.png" width="520"/> |
-| **2024 · 30TUM · patch 20_15** – RGB + **Labels** | <img src="Examples/patch_view_2024-30TUM-20_15_band-RGB Composite_t-0.png" width="520"/> |
+| **2024_30TUK_patch_00_00** – Banda B04 + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
+| **2024_30TUM_patch_00_16** – RGB + Parcels (grayscale)  | <img src="Examples/patch_view_2024-30TUM-00_16_band-RGB Composite_t-0.png" width="520"/> |
+| **2020_29TPF_patch_20_15**  – RGB + Labels (vidris) + legend | <img src="Examples/patch_view_2020-29TPF-20_15_band-RGB Composite_t-3.png" width="520"/> |
+| **2024_30TUM_patch_20_15** – RGB + Labels (color) + legend| <img src="Examples/patch_view_2024-30TUM-20_15_band-RGB Composite_t-0.png" width="520"/> |
 
 
