@@ -1,0 +1,22 @@
+name: gis_processing_env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - geopandas
+  - rasterio
+  - pyproj
+  - fiona
+  - shapely
+  - affine
+  - pandas
+  - numpy
+  - xarray
+  - netcdf4
+  - matplotlib
+  - ipywidgets
+  - jupyterlab
+  - pip
