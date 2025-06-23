@@ -28,10 +28,7 @@
 
 ## Table of Contents
 - [Quick start](#quick-start)
-- [Repository layout](#repository-layout)
-- [Data prerequisites](#data-prerequisites)
-- [Core scripts](#core-scripts)
-- [Sample notebook](#sample-notebook)
+- [Examples](#examples)
 - [How to cite](#how-to-cite)
 - [License](#license)
 
