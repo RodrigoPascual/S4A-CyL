@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/github/languages/top/RodrigoPascual/S4A-CyL?style=flat-square">
   <img src="https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square">
   <img src="https://img.shields.io/badge/data-CC%20BY%204.0-green?style=flat-square">
-  <a href="https://doi.org/10.5281/zenodo.XXXXXXX"><img src="https://img.shields.io/badge/dataset-Zenodo-orange?style=flat-square"></a>
+  <a href="https://hdl.handle.net/10259/10551"><img src="https://img.shields.io/badge/dataset-Riubu-orange?style=flat-square"></a>
 </p>
 
 <h1 align="center">S4A-CyL</h1>
@@ -55,9 +55,9 @@ jupyter lab notebooks/patch_visualization.ipynb
 
 ## Examples
 
-| Patch · Banda · Overlay | Imagen |
+| Patch · Band · Overlay | Imagen |
 |-------------------------|--------|
-| **2024_30TUK_patch_00_00** – Banda B04 + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
+| **2024_30TUK_patch_00_00** – Band B04 + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
 | **2024_30TUM_patch_00_16** – RGB + Parcels (grayscale)  | <img src="Examples/patch_view_2024-30TUM-00_16_band-RGB Composite_t-0.png" width="520"/> |
 | **2020_29TPF_patch_20_15**  – RGB + Labels (vidris) + legend | <img src="Examples/patch_view_2020-29TPF-20_15_band-RGB Composite_t-3.png" width="520"/> |
 | **2024_30TUM_patch_20_15** – RGB + Labels (color) + legend| <img src="Examples/patch_view_2024-30TUM-20_15_band-RGB Composite_t-0.png" width="520"/> |
