@@ -45,7 +45,7 @@ cd S4A-CyL
 conda env create -f environment.yml
 conda activate s4acyl
 
-# 3. download patches (≈ MB) from [___________________]
+# 3. download patches (≈ MB) from https://hdl.handle.net/10259/10551
 
 
 # 4. explore!
