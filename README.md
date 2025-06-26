@@ -9,7 +9,7 @@
   <a href="https://hdl.handle.net/10259/10551"><img src="https://img.shields.io/badge/dataset-Riubu-orange?style=flat-square"></a>
 </p>
 
-<h1 align="center">S4A-CyL</h1>
+<h1 align="center">S4A-CyL Dataset Creation</h1>
 <p align="center"><em>Sentinel-2 time-series dataset with parcel-level crop labels for Castilla y León (Spain, 2020–2024)</em></p>
 
 ---
