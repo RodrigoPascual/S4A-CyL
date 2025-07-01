@@ -63,6 +63,14 @@ conda activate s4acyl
 jupyter lab notebooks/patch_visualization.ipynb
 ```
 
+## Data Structure
+
+The S4A-CyL dataset is distributed as a collection of NetCDF (`.nc`) files. Each file, or "patch," is self-describing and contains multi-resolution time series data and the corresponding reference layers.
+
+For a detailed breakdown of the hierarchical structure, including global attributes, dimensions, groups, and variables for a sample patch, please refer to the following file:
+
+* **[NetCDF Patch Hierarchical Structure](NetCDF_patches_hierarchical_structure.txt)**
+
 
 ## Examples
 
