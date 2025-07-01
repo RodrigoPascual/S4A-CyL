@@ -40,9 +40,9 @@
 
 ## Table of Contents
 - [Quick start](#quick-start)
+- [Data Structure](#data-structure)
 - [Examples](#examples)
-- [How to cite](#how-to-cite)
-- [License](#license)
+
 
 ---
 
