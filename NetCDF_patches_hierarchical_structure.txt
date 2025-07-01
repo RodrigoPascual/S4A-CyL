@@ -128,7 +128,7 @@ Group: /B05 (Data for Sentinel-2 Band 5 - Red Edge 1)
     - y (Dimensions: ('y',), Type: float64): Y coordinates (UTM Northing, e.g., 4497540.0, 4497520.0...)
     - x (Dimensions: ('x',), Type: float64): X coordinates (UTM Easting, e.g., 307320.0, 307340.0...)
     - B05 (Dimensions: ('time', 'y', 'x'), Type: uint16): DN reflectance data for Band 5.
-      - Attributes: (Similar spatial attributes as B01/B09, but potentially different extent/grid coordinates)
+      - Attributes: (Similar spatial attributes as B01/B09)
         - coordinates: band
         - transform: ...
         - res: [20. 20.] (Spatial resolution in meters for y and x axes)
