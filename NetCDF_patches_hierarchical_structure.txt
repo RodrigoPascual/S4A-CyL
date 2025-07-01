@@ -1,0 +1,183 @@
+Root Group
+  - Global Attributes:
+    - title: S4A Patch Dataset Castilla y León (Dataset description)
+    - authors: Rodrigo Pascual-García (rodrigopg@ubu.es), Pedro Latorre-Carmona, Jose Francisco Díez-Pastor / Universidad de Burgos (Dataset creators)
+    - patch_full_name: 2024_30TUL_patch_02_28 (Full patch identifier)
+    - patch_year: 2024 (Acquisition year)
+    - patch_name: patch_02_28 (Patch identifier within the tile/year)
+    - patch_country_code: ES (Country code)
+    - patch_tile: 30TUL (Sentinel-2 tile identifier)
+    - creation_date: 07 May 2025 (File creation timestamp)
+    - version: 21.03 (Dataset version)
+  - Dimensions: (None)
+  - Data Variables: (None)
+
+Group: /B01 (Data for Sentinel-2 Band 1)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate (standard_name: band_index)
+    - time (Dimensions: ('time',), Type: float64): Acquisition times (units: days since 1970-01-01, calendar: proleptic_gregorian)
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (e.g., 4497540.0, 4497480.0...)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (e.g., 307320.0, 307380.0...)
+    - B01 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 1.
+      - Attributes:
+        - res: [60. 60.] (Spatial resolution in meters)
+        - crs: +init=epsg:32630 (Coordinate Reference System: WGS 84 / UTM zone 30N)
+        - nodatavals: nan (Value representing missing data)
+        - scales: 1.0, offsets: 0.0 (Scaling/offset for data values)
+        - AREA_OR_POINT: Area (Spatial extent interpretation)
+
+Group: /B09 (Data for Sentinel-2 Band 9)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B01 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B01 resolution)
+    - B09 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 9.
+      - Attributes: (Similar spatial attributes as B01)
+        - res: [60. 60.]
+
+Group: /B02 (Data for Sentinel-2 Band 2)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (e.g., 4497540.0, 4497530.0...)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (e.g., 307320.0, 307330.0...)
+    - B02 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 2.
+      - Attributes: (Similar spatial attributes as B01, but different resolution)
+        - res: [10. 10.] (Spatial resolution in meters)
+        - crs: +init=epsg:32630
+
+Group: /B03 (Data for Sentinel-2 Band 3)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B02 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B02 resolution)
+    - B03 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 3.
+      - Attributes: (Similar spatial attributes as B02)
+        - res: [10. 10.]
+        - crs: +init=epsg:32630
+
+Group: /B04 (Data for Sentinel-2 Band 4)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B02 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B02 resolution)
+    - B04 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 4.
+      - Attributes: (Similar spatial attributes as B02)
+        - res: [10. 10.]
+        - crs: +init=epsg:32630
+
+Group: /B08 (Data for Sentinel-2 Band 8)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B02 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B02 resolution)
+    - B08 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 8.
+      - Attributes: (Similar spatial attributes as B02)
+        - res: [10. 10.]
+        - crs: +init=epsg:32630
+
+Group: /B05 (Data for Sentinel-2 Band 5)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (e.g., 4497540.0, 4497520.0...)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (e.g., 307320.0, 307340.0...)
+    - B05 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 5.
+      - Attributes: (Similar spatial attributes as B01, but different resolution and extent/grid)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /B06 (Data for Sentinel-2 Band 6)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B05 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B05 resolution)
+    - B06 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 6.
+      - Attributes: (Similar spatial attributes as B05)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /B07 (Data for Sentinel-2 Band 7)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B05 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B05 resolution)
+    - B07 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 7.
+      - Attributes: (Similar spatial attributes as B05)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /B8A (Data for Sentinel-2 Band 8A)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B05 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B05 resolution)
+    - B8A (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 8A.
+      - Attributes: (Similar spatial attributes as B05)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /B11 (Data for Sentinel-2 Band 11)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B05 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B05 resolution)
+    - B11 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 11.
+      - Attributes: (Similar spatial attributes as B05)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /B12 (Data for Sentinel-2 Band 12)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate
+    - time (Dimensions: ('time',), Type: float64): Acquisition times
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B05 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B05 resolution)
+    - B12 (Dimensions: ('time', 'y', 'x'), Type: uint16): Reflectance data for Band 12.
+      - Attributes: (Similar spatial attributes as B05)
+        - res: [20. 20.]
+        - crs: +init=epsg:32630
+
+Group: /labels (Reference labels)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate (likely placeholder)
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching B02/B03/B04/B08 resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching B02/B03/B04/B08 resolution)
+    - labels (Dimensions: ('y', 'x'), Type: uint32): Categorical labels for each pixel.
+      - Attributes:
+        - crs: +init=epsg:32630
+        - res: [10. 10.]
+        - nodatavals: nan
+
+Group: /parcels (Agricultural parcel identifiers)
+  - Attributes: (None)
+  - Variables:
+    - band (Dimensions: (), Type: int64): Band index coordinate (likely placeholder)
+    - y (Dimensions: ('y',), Type: float64): Y coordinates (matching labels resolution)
+    - x (Dimensions: ('x',), Type: float64): X coordinates (matching labels resolution)
+    - parcels (Dimensions: ('y', 'x'), Type: uint32): Unique identifiers for agricultural parcels.
+      - Attributes:
+        - crs: +init=epsg:32630
+        - res: [10. 10.]
+        - nodatavals: nan
