@@ -74,6 +74,12 @@ For a detailed breakdown of the hierarchical structure, including global attribu
 
 ## Examples
 
+<p align="center">
+  <img src="Examples/Patches-labels-examples.png"
+       alt="Examples of patch visualisations with band overlays and labels"
+       width="850"/>
+</p>
+
 | Patch · Band · Overlay | Imagen |
 |-------------------------|--------|
 | **2024_30TUK_patch_00_00** – Band B04 + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
