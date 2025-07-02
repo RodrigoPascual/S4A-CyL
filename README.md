@@ -50,14 +50,14 @@
 
 ```bash
 # 1. clone and enter
-git clone [https://github.com/RodrigoPascual/S4A-CyL.git](https://github.com/RodrigoPascual/S4A-CyL.git)
+git clone https://github.com/RodrigoPascual/S4A-CyL.git
 cd S4A-CyL
 
 # 2. create the conda env
 conda env create -f environment.yml
 conda activate s4acyl
 
-# 3. download patches (≈20 MB per patch) from [https://hdl.handle.net/10259/10551](https://hdl.handle.net/10259/10551)
+# 3. download .nc patches (≈20 MB per patch) from https://e.pcloud.link/publink/show?code=kZ3IedZ8MeROHltDVRNMFe0diISNp38SCTy
 
 # 4. explore!
 jupyter lab notebooks/patch_visualization.ipynb
