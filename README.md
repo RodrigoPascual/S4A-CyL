@@ -77,7 +77,7 @@ For a detailed breakdown of the hierarchical structure, including global attribu
 <p align="center">
   <img src="Examples/Patches-labels-examples.png"
        alt="Examples of patch visualisations with band overlays and labels"
-       width="600"/>
+       width="500"/>
 </p>
 
 | Patch · Band · Overlay | Imagen |
