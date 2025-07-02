@@ -57,7 +57,7 @@ cd S4A-CyL
 conda env create -f environment.yml
 conda activate s4acyl
 
-# 3. download patches (≈ MB) from [https://hdl.handle.net/10259/10551](https://hdl.handle.net/10259/10551)
+# 3. download patches (≈20 MB per patch) from [https://hdl.handle.net/10259/10551](https://hdl.handle.net/10259/10551)
 
 # 4. explore!
 jupyter lab notebooks/patch_visualization.ipynb
