@@ -12,6 +12,10 @@
 <h1 align="center">S4A-CyL Dataset Creation</h1>
 <p align="center"><em>Sentinel-2 time-series dataset with parcel-level crop labels for Castilla y León (Spain, 2020–2024)</em></p>
 
+<p align="center">
+  <strong>Dataset URL:</strong><br>
+  <a href="https://hdl.handle.net/10259/10551">https://hdl.handle.net/10259/10551</a>
+</p>
 <!-- ===================================================================== -->
 <!--                         Diagrama del Proyecto                         -->
 <!-- ===================================================================== -->
