@@ -234,7 +234,7 @@ netcdf_data/2024/30TUL/2024_30TUL_patch_02_28.nc
   Group: /labels (Reference labels)
     - Attributes: (None)
     - Variables:
-      - band (Dimensions: (), Type: int64): Band index coordinate (likely placeholder) (standard_name: band_index, _IsNetcdf4Coordinate: true)
+      - band (Dimensions: (), Type: int64): Band index coordinate (placeholder) (standard_name: band_index, _IsNetcdf4Coordinate: true)
       - y (Dimensions: ('y',), Type: float64): Y coordinates (UTM Northing, matching 10m resolution bands)
       - x (Dimensions: ('x',), Type: float64): X coordinates (UTM Easting, matching 10m resolution bands)
       - labels (Dimensions: ('y', 'x'), Type: uint32): Categorical labels for each pixel (e.g., crop type codes).
@@ -248,7 +248,7 @@ netcdf_data/2024/30TUL/2024_30TUL_patch_02_28.nc
   Group: /parcels (Agricultural parcel identifiers)
     - Attributes: (None)
     - Variables:
-      - band (Dimensions: (), Type: int64): Band index coordinate (likely placeholder) (standard_name: band_index, _IsNetcdf4Coordinate: true)
+      - band (Dimensions: (), Type: int64): Band index coordinate (placeholder) (standard_name: band_index, _IsNetcdf4Coordinate: true)
       - y (Dimensions: ('y',), Type: float64): Y coordinates (UTM Northing, matching labels resolution)
       - x (Dimensions: ('x',), Type: float64): X coordinates (UTM Easting, matching labels resolution)
       - parcels (Dimensions: ('y', 'x'), Type: uint32): Unique identifiers for agricultural parcels for each pixel.
@@ -258,3 +258,4 @@ netcdf_data/2024/30TUL/2024_30TUL_patch_02_28.nc
         - transform: ...
         - res: [10. 10.]
         - nodatavals: nan
+
