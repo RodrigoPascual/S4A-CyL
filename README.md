@@ -84,7 +84,7 @@ For a detailed breakdown of the hierarchical structure, including global attribu
        width="500"/>
 </p>
 
-| Patch · Band · Overlay | Imagen |
+| Patch · Band · Overlay | Image |
 |-------------------------|--------|
 | **2024_30TUK_patch_00_00** – Band B04 + Labels (grayscale) | <img src="Examples/patch_view_2024-30TUK-00_00_band-B04_t-0.png" width="520"/> |
 | **2024_30TUM_patch_00_16** – RGB + Parcels (grayscale)  | <img src="Examples/patch_view_2024-30TUM-00_16_band-RGB Composite_t-0.png" width="520"/> |
